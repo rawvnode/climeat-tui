@@ -1,6 +1,6 @@
 ## Climeat (Genre: Fiction)
 
-CDP is a non-profit that drives companies and governments to reduce their greenhouse gas emissions, safeguard water resources, and protect forests.
+Climeat is a non-profit that drives companies and governments to reduce their greenhouse gas emissions, safeguard water resources, and protect forests. (CDP mission)
 
 ## Team
 
