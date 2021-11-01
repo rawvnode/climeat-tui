@@ -31,7 +31,7 @@ Toolbox : Python, Jupyter, FastAPI, Data engineering, PostgreSQL
 >“All models are wrong, but some are useful”
 ― George Box
 
-Toolbox : Kubernetes, GitOps, Helm, Loki, Tempo, k6, pg_stats, gunicorn
+Toolbox : Kubernetes, GitOps, Helm, Loki, Tempo, k6, Postgres performance utilities
 
 </details>
 
