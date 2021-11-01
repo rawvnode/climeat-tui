@@ -78,7 +78,7 @@ I think the metrics,annual meat consumption per capita and city-wide amount of m
 [11:00] *** <Natasha> Ani, i was able to import the csv files into 2 tables - cities and city_responses
 [09:01] *** <Natasha> i created an utility table to capture the latest city population datapoint
 [11:00] *** <Natasha> all 3 tables are related using the city account number which is unique to cities and city population tables
-[11:00] *** <Natasha> Ani, check out /meatcity
+[11:00] *** <Natasha> Ani, check out the /meatcity endpoint
 [11:00] *** <Natasha> the solution to the dataset heavily employs Pandas dataframes for analysis
 [11:00] *** <Natasha> next steps, look into pivoting data from rows to columns in sql
 [13:30] *** <Ani> 👍 
@@ -87,7 +87,7 @@ I think the metrics,annual meat consumption per capita and city-wide amount of m
 ## Day 3
 
 ```markdown
-[11:00] *** <Ani> Ani, the /meatcities available to test. lmk what you think
+[11:00] *** <Natasha> Ani, the /meatcities endpoint is available to test. lmk what you think
 [11:45] *** Joins: Dipak
 [11:45] *** <Dipak> Natasha, did you put the endpoints through the Trials of Chaos 💪
 [11:45] *** <Dipak> i encoded a few test rules based on the feedback i received from Ani on user volume.
