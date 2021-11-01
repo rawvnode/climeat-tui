@@ -87,7 +87,7 @@ I think the metrics,annual meat consumption per capita and city-wide amount of m
 ## Day 3
 
 ```markdown
-[11:00] *** <Ani> Ani, the /meatcities available to test. lmk what you think
+[11:00] *** <Ani> Ani, the /meatcities endpoint is available to test. lmk what you think
 [11:45] *** Joins: Dipak
 [11:45] *** <Dipak> Natasha, did you put the endpoints through the Trials of Chaos 💪
 [11:45] *** <Dipak> i encoded a few test rules based on the feedback i received from Ani on user volume.
