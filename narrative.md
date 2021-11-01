@@ -1,6 +1,6 @@
 ## Climeat (Genre: Fiction)
 
-Climeat is a non-profit that drives companies and governments to reduce their greenhouse gas emissions, safeguard water resources, and protect forests. (CDP mission)
+To deter consumption of meat and effectively reduce greenhouse gas emissions.
 
 ## Team
 
