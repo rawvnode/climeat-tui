@@ -47,19 +47,19 @@ class MyApp(App):
        
         grid.add_areas(
             story_open="left,top",
-            cities="left,middle",
-            moscow="left,bottom",
+            moscow="left,middle",
+            cities="left,bottom",
             results="right,top-start|bottom-end"
         )
 
         self.story_button = MyButton(label="Story", name="Story")
-        self.cities_button = MyButton(label="Meat Over Consumption", name="Meat")
         self.city_button = MyButton(label="City", name="Moscow")
+        self.cities_button = MyButton(label="Meat Over Consumption", name="Meat")
 
         grid.place(
             story_open=self.story_button,
-            cities=self.cities_button,
             moscow=self.city_button,
+            cities=self.cities_button,
             results=self.results
         )
 

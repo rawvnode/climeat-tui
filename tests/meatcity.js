@@ -7,9 +7,9 @@ export const options = {
     { duration: '30s', target: 1 },
     { duration: '30s', target: 5 },
     { duration: '30s', target: 10 },
-    { duration: '30s', target: 15 },
-    { duration: '30s', target: 20 },
     { duration: '30s', target: 25 },
+    { duration: '30s', target: 50 },
+    { duration: '30s', target: 75 },
   ],
   thresholds: {
     http_req_failed: ['rate<0.02'], // http errors should be less than 2%
@@ -36,6 +36,6 @@ export const options = {
 }
 
 export default function main() {
-  let response = http.get('https://climeat-api.safemoon.joshcorp.co/meatoverconsumption')
+  let response = http.get('https://climeat-api.safemoon.joshcorp.co/cities/Moscow')
   sleep(1)
 }
