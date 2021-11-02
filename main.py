@@ -53,8 +53,8 @@ class MyApp(App):
         )
 
         self.story_button = MyButton(label="Story", name="Story")
-        self.cities_button = MyButton(label="Cities", name="Cities")
-        self.city_button = MyButton(label="Moscow", name="Moscow")
+        self.cities_button = MyButton(label="Meat Over Consumption", name="Meat")
+        self.city_button = MyButton(label="City", name="Moscow")
 
         grid.place(
             story_open=self.story_button,
@@ -71,9 +71,9 @@ class MyApp(App):
         button_name = message.sender.name
 
         import time
-        if button_name == "Cities":
+        if button_name == "Meat":
             start = time.time()
-            cities = get_cities()
+            cities = get_meat_overconsumption()
             end = time.time()
             
             cities_table = Table(show_header=True, header_style="bold green", caption=f"retrieved with ❤️ in {end-start} seconds")
@@ -88,14 +88,14 @@ class MyApp(App):
         elif button_name == "Moscow":
             moscow = get_city("Moscow")
 
-            city_table = Table(show_header=True, header_style="bold magenta")
-            for k in moscow.keys():
-                city_table.add_column(k)
+            # city_table = Table(show_header=True, header_style="bold magenta")
+            # for k in moscow.keys():
+            #     city_table.add_column(k)
             
-            l = [str(v) for v in moscow.values()]
-            city_table.add_row(*l, end_section=True)
+            # l = [str(v) for v in moscow.values()]
+            # city_table.add_row(*l, end_section=True)
 
-            await self.results.update(city_table)
+            await self.results.update(json.dumps(moscow, indent=2))
         elif button_name == "Story":
             with open("narrative.md", "rt") as fh:
                 md = Markdown(fh.read(), hyperlinks=True)
