@@ -89,6 +89,7 @@ I think the metrics,annual meat consumption per capita and city-wide amount of m
 [14:20] *** Joins: Dipak
 [14:20] *** <Dipak> Natasha, You should run that endpoint through the Trials of Chaos!
 [14:25] *** <Natasha> Sounds fun! 🎮
+[14:45] *** <ToC Bot> City Level 1 ✅ 
 ```
 
 ## Day 3
@@ -98,7 +99,6 @@ I think the metrics,annual meat consumption per capita and city-wide amount of m
 [11:45] *** <Dipak> Natasha, did you put this endpoint through the Trials of Chaos 💪
 [11:45] *** <Dipak> i encoded a few test rules based on the feedback i received from Ani on user volume.
 [13:30] *** <Natasha> 🙏 I'm going for a high score!
-[15:00] *** <ToC Bot> City Level 1 ✅ 
 [15:00] *** <ToC Bot> Meat Cities Level 1 ❌
 ```
 
